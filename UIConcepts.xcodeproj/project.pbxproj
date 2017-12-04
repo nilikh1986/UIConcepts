@@ -14,6 +14,7 @@
 		B311FB5C1FD5DA1800CC0525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B311FB5A1FD5DA1800CC0525 /* LaunchScreen.storyboard */; };
 		B311FB651FD5EE9100CC0525 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B311FB641FD5EE9100CC0525 /* OpenSans-Light.ttf */; };
 		B311FB671FD5EEAF00CC0525 /* Yellowtail-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B311FB661FD5EEAF00CC0525 /* Yellowtail-Regular.ttf */; };
+		B311FB6A1FD6037A00CC0525 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311FB691FD6037A00CC0525 /* BorderedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B311FB5D1FD5DA1800CC0525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B311FB641FD5EE9100CC0525 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		B311FB661FD5EEAF00CC0525 /* Yellowtail-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellowtail-Regular.ttf"; sourceTree = "<group>"; };
+		B311FB691FD6037A00CC0525 /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		B311FB501FD5DA1800CC0525 /* UIConcepts */ = {
 			isa = PBXGroup;
 			children = (
+				B311FB681FD6034300CC0525 /* IBDesignable */,
 				B311FB631FD5EE5C00CC0525 /* Fonts */,
 				B311FB511FD5DA1800CC0525 /* AppDelegate.swift */,
 				B311FB531FD5DA1800CC0525 /* ViewController.swift */,
@@ -76,6 +79,14 @@
 				B311FB661FD5EEAF00CC0525 /* Yellowtail-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B311FB681FD6034300CC0525 /* IBDesignable */ = {
+			isa = PBXGroup;
+			children = (
+				B311FB691FD6037A00CC0525 /* BorderedButton.swift */,
+			);
+			path = IBDesignable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 			files = (
 				B311FB541FD5DA1800CC0525 /* ViewController.swift in Sources */,
 				B311FB521FD5DA1800CC0525 /* AppDelegate.swift in Sources */,
+				B311FB6A1FD6037A00CC0525 /* BorderedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
