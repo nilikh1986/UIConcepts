@@ -30,7 +30,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XZM-2R-TC3">
-                                <rect key="frame" x="20" y="237.5" width="280" height="193"/>
+                                <rect key="frame" x="20" y="238" width="280" height="193"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mQq-Uq-23E">
                                     <rect key="frame" x="0.0" y="0.0" width="280" height="193"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -165,7 +165,7 @@
                                     </connections>
                                 </button>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AXc-C6-Buv" customClass="DesignableView" customModule="UIConcepts" customModuleProvider="target">
-                                    <rect key="frame" x="40" y="164" width="240" height="240"/>
+                                    <rect key="frame" x="40" y="114" width="240" height="240"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="hdS-CA-1uI">
                                             <rect key="frame" x="30" y="66.5" width="180" height="167.5"/>
@@ -186,7 +186,10 @@
                                                     <rect key="frame" x="0.0" y="88.5" width="180" height="30"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="iLI-IZ-7Pm" id="4uo-8Q-zff"/>
+                                                    </connections>
                                                 </textField>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4s-Bb-1Rz">
                                                     <rect key="frame" x="0.0" y="137.5" width="180" height="30"/>
@@ -198,7 +201,7 @@
                                             </subviews>
                                         </stackView>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.93866941189999997" green="1" blue="0.086675275029999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstItem="hdS-CA-1uI" firstAttribute="centerY" secondItem="AXc-C6-Buv" secondAttribute="centerY" constant="30" id="BPw-i2-RMU"/>
                                         <constraint firstItem="hdS-CA-1uI" firstAttribute="leading" secondItem="AXc-C6-Buv" secondAttribute="leading" constant="30" id="QLd-CE-Y2p"/>
@@ -208,7 +211,7 @@
                                     </constraints>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                            <real key="value" value="15"/>
+                                            <real key="value" value="25"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                             <real key="value" value="0.0"/>
@@ -216,8 +219,8 @@
                                     </userDefinedRuntimeAttributes>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6M-2J-7qr" customClass="DesignableView" customModule="UIConcepts" customModuleProvider="target">
-                                    <rect key="frame" x="110" y="111" width="100" height="100"/>
-                                    <color key="backgroundColor" red="0.93866941189999997" green="1" blue="0.086675275029999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <rect key="frame" x="110" y="61" width="100" height="100"/>
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="100" id="XcF-AT-Jiu"/>
                                         <constraint firstAttribute="width" constant="100" id="Z2G-ad-Lcp"/>
@@ -234,7 +237,7 @@
                                 <constraint firstItem="AXc-C6-Buv" firstAttribute="centerX" secondItem="Cg7-wV-Lax" secondAttribute="centerX" id="3o2-LY-Wal"/>
                                 <constraint firstAttribute="trailing" secondItem="MYX-TC-sb2" secondAttribute="trailing" id="7fS-eI-Tff"/>
                                 <constraint firstItem="MYX-TC-sb2" firstAttribute="top" secondItem="Cg7-wV-Lax" secondAttribute="top" id="ATQ-G2-cZM"/>
-                                <constraint firstItem="AXc-C6-Buv" firstAttribute="centerY" secondItem="Cg7-wV-Lax" secondAttribute="centerY" id="EMa-1v-tew"/>
+                                <constraint firstItem="AXc-C6-Buv" firstAttribute="centerY" secondItem="Cg7-wV-Lax" secondAttribute="centerY" constant="-50" id="EMa-1v-tew"/>
                                 <constraint firstItem="MYX-TC-sb2" firstAttribute="leading" secondItem="Cg7-wV-Lax" secondAttribute="leading" id="TfB-Rv-EgX"/>
                                 <constraint firstItem="d6M-2J-7qr" firstAttribute="centerX" secondItem="Cg7-wV-Lax" secondAttribute="centerX" id="ap0-AI-tqJ"/>
                                 <constraint firstAttribute="bottom" secondItem="MYX-TC-sb2" secondAttribute="bottom" id="omB-v1-ZXa"/>
