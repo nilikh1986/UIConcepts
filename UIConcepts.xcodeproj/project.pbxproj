@@ -15,6 +15,8 @@
 		B311FB651FD5EE9100CC0525 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B311FB641FD5EE9100CC0525 /* OpenSans-Light.ttf */; };
 		B311FB671FD5EEAF00CC0525 /* Yellowtail-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B311FB661FD5EEAF00CC0525 /* Yellowtail-Regular.ttf */; };
 		B311FB6A1FD6037A00CC0525 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311FB691FD6037A00CC0525 /* BorderedButton.swift */; };
+		B3F135B71FD73BE300FE0AC2 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F135B61FD73BE300FE0AC2 /* DesignableView.swift */; };
+		B3F135B91FD73EA300FE0AC2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F135B81FD73EA300FE0AC2 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		B311FB641FD5EE9100CC0525 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		B311FB661FD5EEAF00CC0525 /* Yellowtail-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellowtail-Regular.ttf"; sourceTree = "<group>"; };
 		B311FB691FD6037A00CC0525 /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
+		B3F135B61FD73BE300FE0AC2 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		B3F135B81FD73EA300FE0AC2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 				B311FB681FD6034300CC0525 /* IBDesignable */,
 				B311FB631FD5EE5C00CC0525 /* Fonts */,
 				B311FB511FD5DA1800CC0525 /* AppDelegate.swift */,
+				B3F135B81FD73EA300FE0AC2 /* SignUpViewController.swift */,
 				B311FB531FD5DA1800CC0525 /* ViewController.swift */,
 				B311FB551FD5DA1800CC0525 /* Main.storyboard */,
 				B311FB581FD5DA1800CC0525 /* Assets.xcassets */,
@@ -85,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				B311FB691FD6037A00CC0525 /* BorderedButton.swift */,
+				B3F135B61FD73BE300FE0AC2 /* DesignableView.swift */,
 			);
 			path = IBDesignable;
 			sourceTree = "<group>";
@@ -163,9 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F135B71FD73BE300FE0AC2 /* DesignableView.swift in Sources */,
 				B311FB541FD5DA1800CC0525 /* ViewController.swift in Sources */,
 				B311FB521FD5DA1800CC0525 /* AppDelegate.swift in Sources */,
 				B311FB6A1FD6037A00CC0525 /* BorderedButton.swift in Sources */,
+				B3F135B91FD73EA300FE0AC2 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
