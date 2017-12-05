@@ -17,6 +17,7 @@
 		B311FB6A1FD6037A00CC0525 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311FB691FD6037A00CC0525 /* BorderedButton.swift */; };
 		B3F135B71FD73BE300FE0AC2 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F135B61FD73BE300FE0AC2 /* DesignableView.swift */; };
 		B3F135B91FD73EA300FE0AC2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F135B81FD73EA300FE0AC2 /* SignUpViewController.swift */; };
+		B3F135BC1FD74E2400FE0AC2 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F135BB1FD74E2400FE0AC2 /* BounceButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B311FB691FD6037A00CC0525 /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
 		B3F135B61FD73BE300FE0AC2 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		B3F135B81FD73EA300FE0AC2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B3F135BB1FD74E2400FE0AC2 /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		B311FB501FD5DA1800CC0525 /* UIConcepts */ = {
 			isa = PBXGroup;
 			children = (
+				B3F135BA1FD74E0600FE0AC2 /* CustomControls */,
 				B311FB681FD6034300CC0525 /* IBDesignable */,
 				B311FB631FD5EE5C00CC0525 /* Fonts */,
 				B311FB511FD5DA1800CC0525 /* AppDelegate.swift */,
@@ -93,6 +96,14 @@
 				B3F135B61FD73BE300FE0AC2 /* DesignableView.swift */,
 			);
 			path = IBDesignable;
+			sourceTree = "<group>";
+		};
+		B3F135BA1FD74E0600FE0AC2 /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				B3F135BB1FD74E2400FE0AC2 /* BounceButton.swift */,
+			);
+			path = CustomControls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 				B311FB521FD5DA1800CC0525 /* AppDelegate.swift in Sources */,
 				B311FB6A1FD6037A00CC0525 /* BorderedButton.swift in Sources */,
 				B3F135B91FD73EA300FE0AC2 /* SignUpViewController.swift in Sources */,
+				B3F135BC1FD74E2400FE0AC2 /* BounceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

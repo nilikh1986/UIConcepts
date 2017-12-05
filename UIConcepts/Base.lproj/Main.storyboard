@@ -30,13 +30,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XZM-2R-TC3">
-                                <rect key="frame" x="20" y="238" width="280" height="193"/>
+                                <rect key="frame" x="20" y="249" width="280" height="170.5"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mQq-Uq-23E">
-                                    <rect key="frame" x="0.0" y="0.0" width="280" height="193"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="280" height="170.5"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="FUo-WL-EY6">
-                                            <rect key="frame" x="0.0" y="20" width="280" height="153"/>
+                                            <rect key="frame" x="0.0" y="20" width="280" height="130.5"/>
                                             <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</string>
                                             <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="16"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

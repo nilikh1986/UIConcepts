@@ -8,7 +8,7 @@
 
 import UIKit
 
- @IBDesignable class BorderedButton: UIButton {
+ @IBDesignable class BorderedButton: BounceButton {
 
     @IBInspectable var borderWidth: CGFloat = 0.0 {
         didSet {
