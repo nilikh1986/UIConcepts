@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cqe-kU-K3d">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -30,13 +30,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XZM-2R-TC3">
-                                <rect key="frame" x="20" y="249" width="280" height="170.5"/>
+                                <rect key="frame" x="20" y="238" width="280" height="193"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mQq-Uq-23E">
-                                    <rect key="frame" x="0.0" y="0.0" width="280" height="170.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="280" height="193"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="FUo-WL-EY6">
-                                            <rect key="frame" x="0.0" y="20" width="280" height="130.5"/>
+                                            <rect key="frame" x="0.0" y="20" width="280" height="153"/>
                                             <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</string>
                                             <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="16"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -250,8 +250,108 @@
             </objects>
             <point key="canvasLocation" x="705" y="26.408450704225352"/>
         </scene>
+        <!--Custom Picker View Controller-->
+        <scene sceneID="upY-zR-RO7">
+            <objects>
+                <viewController id="IJR-UU-7Q8" customClass="CustomPickerViewController" customModule="DropdownSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aD3-oa-pDD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.43955590459999999" green="0.35303352630000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="QEW-8i-NQp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3CO-qP-f4R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="825" y="918"/>
+        </scene>
+        <!--Tiner Animation View Controller-->
+        <scene sceneID="zLg-SO-Rib">
+            <objects>
+                <viewController id="gZV-ar-Ro7" customClass="TinerAnimationViewController" customModule="DropdownSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OX5-HN-35L">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="pjF-lN-HsS" userLabel="Card">
+                                <rect key="frame" x="40" y="126.5" width="240" height="315"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="moreImagesCamera" translatesAutoresizingMaskIntoConstraints="NO" id="IwQ-lU-zhn">
+                                        <rect key="frame" x="8" y="73" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="315" id="iDZ-yr-Efy"/>
+                                    <constraint firstAttribute="width" constant="240" id="mpT-ab-V3s"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="iQt-kt-ZkN" appends="YES" id="xVr-ub-NHq"/>
+                                </connections>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OP8-d2-Mvu">
+                                <rect key="frame" x="168" y="20" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="reset:" destination="gZV-ar-Ro7" eventType="touchUpInside" id="UU9-Oa-kRb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93866941189999997" green="1" blue="0.086675275029999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="pjF-lN-HsS" firstAttribute="centerY" secondItem="OX5-HN-35L" secondAttribute="centerY" id="Vse-uA-oTS"/>
+                            <constraint firstItem="pjF-lN-HsS" firstAttribute="centerX" secondItem="OX5-HN-35L" secondAttribute="centerX" id="hXk-HW-9um"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="28F-yD-jda"/>
+                    </view>
+                    <connections>
+                        <outlet property="card" destination="pjF-lN-HsS" id="S6x-lg-204"/>
+                        <outlet property="thumbImageView" destination="IwQ-lU-zhn" id="CyB-PP-zdj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rA7-E7-NGg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="iQt-kt-ZkN">
+                    <connections>
+                        <action selector="panCard:" destination="gZV-ar-Ro7" id="5q6-f4-vsU"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1704" y="302"/>
+        </scene>
+        <!--Dropdown View Controller-->
+        <scene sceneID="PG8-gE-8ro">
+            <objects>
+                <viewController id="Cqe-kU-K3d" customClass="DropdownViewController" customModule="DropdownSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y3z-Qv-nge">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJR-Cv-T97">
+                                <rect key="frame" x="153" y="63" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.57156143709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.43955590459999999" green="0.35303352630000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Mvt-AJ-bYv"/>
+                    </view>
+                    <connections>
+                        <outlet property="sampleButton" destination="UJR-Cv-T97" id="iw6-67-lfD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FgY-7v-Etk" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1648" y="-775"/>
+        </scene>
     </scenes>
     <resources>
         <image name="backgroundImage" width="750" height="1334"/>
+        <image name="moreImagesCamera" width="333" height="256"/>
     </resources>
 </document>

@@ -15,6 +15,9 @@
 		B311FB651FD5EE9100CC0525 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B311FB641FD5EE9100CC0525 /* OpenSans-Light.ttf */; };
 		B311FB671FD5EEAF00CC0525 /* Yellowtail-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B311FB661FD5EEAF00CC0525 /* Yellowtail-Regular.ttf */; };
 		B311FB6A1FD6037A00CC0525 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311FB691FD6037A00CC0525 /* BorderedButton.swift */; };
+		B37E2BF51FEDB37A00E1BEA9 /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E2BF21FEDB37A00E1BEA9 /* CustomPickerViewController.swift */; };
+		B37E2BF61FEDB37A00E1BEA9 /* TinerAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E2BF31FEDB37A00E1BEA9 /* TinerAnimationViewController.swift */; };
+		B37E2BF71FEDB37A00E1BEA9 /* DropdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E2BF41FEDB37A00E1BEA9 /* DropdownViewController.swift */; };
 		B3F135B71FD73BE300FE0AC2 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F135B61FD73BE300FE0AC2 /* DesignableView.swift */; };
 		B3F135B91FD73EA300FE0AC2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F135B81FD73EA300FE0AC2 /* SignUpViewController.swift */; };
 		B3F135BC1FD74E2400FE0AC2 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F135BB1FD74E2400FE0AC2 /* BounceButton.swift */; };
@@ -31,6 +34,9 @@
 		B311FB641FD5EE9100CC0525 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		B311FB661FD5EEAF00CC0525 /* Yellowtail-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellowtail-Regular.ttf"; sourceTree = "<group>"; };
 		B311FB691FD6037A00CC0525 /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
+		B37E2BF21FEDB37A00E1BEA9 /* CustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
+		B37E2BF31FEDB37A00E1BEA9 /* TinerAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinerAnimationViewController.swift; sourceTree = "<group>"; };
+		B37E2BF41FEDB37A00E1BEA9 /* DropdownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropdownViewController.swift; sourceTree = "<group>"; };
 		B3F135B61FD73BE300FE0AC2 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		B3F135B81FD73EA300FE0AC2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B3F135BB1FD74E2400FE0AC2 /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
@@ -69,6 +75,9 @@
 				B3F135BA1FD74E0600FE0AC2 /* CustomControls */,
 				B311FB681FD6034300CC0525 /* IBDesignable */,
 				B311FB631FD5EE5C00CC0525 /* Fonts */,
+				B37E2BF21FEDB37A00E1BEA9 /* CustomPickerViewController.swift */,
+				B37E2BF41FEDB37A00E1BEA9 /* DropdownViewController.swift */,
+				B37E2BF31FEDB37A00E1BEA9 /* TinerAnimationViewController.swift */,
 				B311FB511FD5DA1800CC0525 /* AppDelegate.swift */,
 				B3F135B81FD73EA300FE0AC2 /* SignUpViewController.swift */,
 				B311FB531FD5DA1800CC0525 /* ViewController.swift */,
@@ -183,8 +192,11 @@
 				B3F135B71FD73BE300FE0AC2 /* DesignableView.swift in Sources */,
 				B311FB541FD5DA1800CC0525 /* ViewController.swift in Sources */,
 				B311FB521FD5DA1800CC0525 /* AppDelegate.swift in Sources */,
+				B37E2BF71FEDB37A00E1BEA9 /* DropdownViewController.swift in Sources */,
 				B311FB6A1FD6037A00CC0525 /* BorderedButton.swift in Sources */,
+				B37E2BF51FEDB37A00E1BEA9 /* CustomPickerViewController.swift in Sources */,
 				B3F135B91FD73EA300FE0AC2 /* SignUpViewController.swift in Sources */,
+				B37E2BF61FEDB37A00E1BEA9 /* TinerAnimationViewController.swift in Sources */,
 				B3F135BC1FD74E2400FE0AC2 /* BounceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
