@@ -18,6 +18,7 @@
 		B37E2BF51FEDB37A00E1BEA9 /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E2BF21FEDB37A00E1BEA9 /* CustomPickerViewController.swift */; };
 		B37E2BF61FEDB37A00E1BEA9 /* TinerAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E2BF31FEDB37A00E1BEA9 /* TinerAnimationViewController.swift */; };
 		B37E2BF71FEDB37A00E1BEA9 /* DropdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E2BF41FEDB37A00E1BEA9 /* DropdownViewController.swift */; };
+		B3C22D591FFC029F0080FBE0 /* AnimateTableCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C22D581FFC029F0080FBE0 /* AnimateTableCellTableViewController.swift */; };
 		B3F135B71FD73BE300FE0AC2 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F135B61FD73BE300FE0AC2 /* DesignableView.swift */; };
 		B3F135B91FD73EA300FE0AC2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F135B81FD73EA300FE0AC2 /* SignUpViewController.swift */; };
 		B3F135BC1FD74E2400FE0AC2 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F135BB1FD74E2400FE0AC2 /* BounceButton.swift */; };
@@ -37,6 +38,7 @@
 		B37E2BF21FEDB37A00E1BEA9 /* CustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
 		B37E2BF31FEDB37A00E1BEA9 /* TinerAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinerAnimationViewController.swift; sourceTree = "<group>"; };
 		B37E2BF41FEDB37A00E1BEA9 /* DropdownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropdownViewController.swift; sourceTree = "<group>"; };
+		B3C22D581FFC029F0080FBE0 /* AnimateTableCellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateTableCellTableViewController.swift; sourceTree = "<group>"; };
 		B3F135B61FD73BE300FE0AC2 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		B3F135B81FD73EA300FE0AC2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B3F135BB1FD74E2400FE0AC2 /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				B37E2BF31FEDB37A00E1BEA9 /* TinerAnimationViewController.swift */,
 				B311FB511FD5DA1800CC0525 /* AppDelegate.swift */,
 				B3F135B81FD73EA300FE0AC2 /* SignUpViewController.swift */,
+				B3C22D581FFC029F0080FBE0 /* AnimateTableCellTableViewController.swift */,
 				B311FB531FD5DA1800CC0525 /* ViewController.swift */,
 				B311FB551FD5DA1800CC0525 /* Main.storyboard */,
 				B311FB581FD5DA1800CC0525 /* Assets.xcassets */,
@@ -191,6 +194,7 @@
 			files = (
 				B3F135B71FD73BE300FE0AC2 /* DesignableView.swift in Sources */,
 				B311FB541FD5DA1800CC0525 /* ViewController.swift in Sources */,
+				B3C22D591FFC029F0080FBE0 /* AnimateTableCellTableViewController.swift in Sources */,
 				B311FB521FD5DA1800CC0525 /* AppDelegate.swift in Sources */,
 				B37E2BF71FEDB37A00E1BEA9 /* DropdownViewController.swift in Sources */,
 				B311FB6A1FD6037A00CC0525 /* BorderedButton.swift in Sources */,

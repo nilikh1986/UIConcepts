@@ -10,8 +10,11 @@ import UIKit
 
 class CustomPickerViewController: UIViewController {
 
+    @IBOutlet weak var myButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
 
         // Do any additional setup after loading the view.
     }
@@ -21,7 +24,13 @@ class CustomPickerViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func buttonAction(_ sender: Any) {
+        print("Button tapped!")
+    }
+    
+    @IBAction func toggleButton(_ sender: UISwitch) {
+        myButton.isEnabled = sender.isOn
+    }
     /*
     // MARK: - Navigation
 
